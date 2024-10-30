@@ -6,7 +6,7 @@ import { AiOutlineShoppingCart, AiOutlineClose } from "react-icons/ai";
 import { FaSearch, FaExclamationCircle, FaExclamationTriangle, FaEdit, FaTrash } from 'react-icons/fa';
 import { GoChevronUp, GoChevronDown } from "react-icons/go";
 import { useStore } from '../Components/StoreContext';
-import FloatingAlert from '../Components/Alerts';
+// import FloatingAlert from '../Components/Alerts';
 
 const categories = ['Todos', 'CCTV', 'IP', 'WiFi', 'Accesorios', 'Kits'];
 

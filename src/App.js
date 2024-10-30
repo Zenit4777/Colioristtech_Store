@@ -14,8 +14,8 @@ import Payments from './Pages/Payments'
 import Card from './Pages/Card'
 import UserProfileModal from './AccountComps/UserProfileModal';//Accounts components
 import PurchaseHistoryModal from './AccountComps/PurchaseHistoryModal';
-import Wishlist from './AccountComps/Wishlist';
-import Benefits from './AccountComps/Benefits';
+// import Wishlist from './AccountComps/Wishlist';
+// import Benefits from './AccountComps/Benefits';
 import AddCameras from './Components/AddCameras'
 import GetCamera from './Components/GetCamera'
 
@@ -39,8 +39,9 @@ const App = () => {
           <Route path="/Accounts" element={<Accounts />} >
             <Route  path='UserProfile'  element={<UserProfileModal />} />
             <Route path="Purchase" element={<PurchaseHistoryModal />} />
-            <Route path="Pishlist" element={<Wishlist />} />
-            <Route path="Benefits" element={<Benefits />} /></Route>
+            {/* <Route path="Wishlist" element={<Wishlist />} /> */}
+            {/* <Route path="Benefits" element={<Benefits />} /> */}
+            </Route>
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
           <Route path="/Payment" element={<Payments />} />

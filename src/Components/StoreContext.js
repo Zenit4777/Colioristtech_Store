@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState, useRef, useEffect } from 'r
 import { auth, db } from '../FirebaseComps/LoginFirebase';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { doc, getDoc, setDoc, updateDoc } from 'firebase/firestore';
-import FloatingAlert from '../Components/Alerts';
+// import FloatingAlert from '../Components/Alerts';
 
 const StoreContext = createContext();
 
