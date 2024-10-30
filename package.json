@@ -1,7 +1,4 @@
 {
-  
-  
-  
   "name": "online_store",
   "version": "0.1.0",
   "private": true,
@@ -19,14 +16,13 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "serve": "^14.2.4",
-    "web-vitals": "^2.1.4",
-    
+    "web-vitals": "^2.1.4"    
   },
   "scripts": {
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "react-scripts serve build -S -n -L -p $PORT"
+    "start":"serve build -S -n -L -p $PORT"
   },
   "eslintConfig": {
     "extends": [
