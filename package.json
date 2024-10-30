@@ -1,4 +1,7 @@
 {
+  
+  
+  
   "name": "online_store",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +18,8 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "serve": "^14.2.4",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "/"
   },
   "scripts": {
     "build": "react-scripts build",
